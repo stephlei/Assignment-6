@@ -4,6 +4,6 @@ var config = require('./config'),
 
 module.exports.start = function() {
   var app = express.init();
-  app.listen(process.env.PORT || 3000, funtion() {
+  app.listen(process.env.PORT || 3000, function() {
   });
 };
